@@ -7,10 +7,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
   <title>About Me JAC</title>
 
@@ -18,28 +17,26 @@
 
 <body>
 
-  <!--<nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Julian Clay</span>-->
-
+   <!--Navigation Bar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
     <div class="container-fluid">
 
       <a class="navbar-brand mb-0 h1">Julian Clay</a>
 
+      <!--Navigation Page Size Toggler Button-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
         <span class="navbar-toggler-icon"></span>
 
       </button>
      
+      <!--Nav Bar Inline List-->
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 
         <ul class="nav">
-
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            <a class="nav-link" href="aboutme.html">About</a>
           </li>
 
           <li class="nav-item">
@@ -47,7 +44,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About</a>
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
           </li>
           
         </ul>
@@ -55,74 +52,100 @@
     </div>
   </nav>
 
-
+  <!--Background Picture-->
   <div class="bg-img">
 
     <br>
 
-    <div class="container margin">
+     <!--Portfolio Content-->
+    <main class="container margin mt-5">
 
       <div class="col-md-9 card p-4">
-        <h3>Portfolio</h3>
-        <hr>
 
+        <h3>Portfolio</h3>
+
+        <hr>
+        <!--Card Group-->
         <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
+
+          <!--Card 1-->
+          <section class="col">
             <div class="card">
-              <img src="./assets/Screenshot.png" class="card-img-top" alt="CLient demo website screenshot.">
+
+              <!--Picture/Description-->
+              <img src="./assets/images/Screenshot.png" class="card-img-top" alt="Client demo website screenshot.">
+              
               <div class="card-body">
+
                 <h5 class="card-title">Client Demo site</h5>
                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
               </div>
             </div>
-          </div>
-          <div class="col">
+          </section>
+
+          <!--Card 2-->
+          <section class="col">
             <div class="card">
-              <img src="./assets/pexels-kristina-paukshtite-1839753.jpg" class="card-img-top" alt="Photo by Kristina Paukshtite from Pexels Picture of a dog in a tent. ">
+
+              <!--Picture/Description-->
+              <img src="./assets/images/pexels-kristina-paukshtite-1839753.jpg" class="card-img-top" alt="Photo by Kristina Paukshtite from Pexels Picture of a dog in a tent. ">
+              
               <div class="card-body">
+
                 <h5 class="card-title">Project 2</h5>
                 <p class="card-text">Coming Soon...</p>
+
               </div>
             </div>
-          </div>
-          <div class="col">
+          </section>
+
+          <!--Card 3-->
+          <section class="col">
             <div class="card">
-              <img src="./assets/pexels-anna-shvets-4587959.jpg" class="card-img-top" alt="Photo by Anna Shvets from Pexels Picture of a cat with a pink bouffant.">
+
+              <!--Picture/Description-->
+              <img src="./assets/images/pexels-anna-shvets-4587959.jpg" class="card-img-top" alt="Photo by Anna Shvets from Pexels Picture of a cat with a pink bouffant.">
+              
               <div class="card-body">
+
                 <h5 class="card-title">Project 3</h5>
                 <p class="card-text"> Coming Soon...</p>
+
               </div>
             </div>
-          </div>
-          <div class="col">
+          </section>
+
+          <!--Card 4-->
+          <section class="col">
             <div class="card">
-              <img src="./assets/IMG_E4907C83C1C4-1.jpeg" class="card-img-top" alt="Knowtations mobile website screenshot.">
+
+              <!--Picture/Description-->
+              <img src="./assets/images/IMG_E4907C83C1C4-1.jpeg" class="card-img-top" alt="Knowtations mobile website screenshot.">
+              
               <div class="card-body">
+
                 <h5 class="card-title">Knowations</h5>
                 <p class="card-text">Here is a sneak peek at my project site designed in Squarespace.</p>
+              
               </div>
             </div>
-          </div>
+          </section>
+
         </div>
 
       </div>
 
       <br>
 
-    </div>
-
-
+    </main>
 
   </div>
 
+  <!--Sticky Footer-->
   <footer class="bg-light text-muted">By JAC 2020</footer>
 
-
-
-  <!--<img src="./assets/pexels-scott-webb-1029604.jpg" class="img-fluid" alt=" Photo by Scott Webb from Pexels - background picture of pebble rock texture.">-->
-</body>
-
-
+<!--Javascript Plugins-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
   integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"

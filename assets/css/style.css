@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 
+/* Background Picture Styling */
 .bg-img {
-    background-image: url('./assets/pexels-scott-webb-1029604.jpg');
+    background-image: url('../images/pexels-scott-webb-1029604.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,15 +14,11 @@
     height: 100%;
    }
 
-   .margin {
+/* Container Styling */.margin {
     margin-bottom: 35%;
    }
 
-br {
-       position: absolute;
-       bottom: 100%;
-
-   }
+/* Sticky Footer Styling */
 footer {
     position: fixed;
     left: 0;
