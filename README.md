@@ -1,7 +1,7 @@
 # Julian Clay's Portfolio Website
 
 ## JAC Portfolio Website Link
-https://jaclay1994.github.io/Client-Website-Assessability/
+https://jaclay1994.github.io/Julian-Clay-Portfolio-Profile/
 
 ## Goals
 
