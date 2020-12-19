@@ -17,4 +17,4 @@ the background image from actually covering the whole screen. Adding a margin to
 I added a sticky footer to the bottom, following a similar styling for the navigation bar. Linking the pages was not difficult for me to do since Bootstrap lays out the places to write out code to customize its interations with the pages. This activity really showed me that I can
 create a decent looking website that can display the information I'm trying to present. I would like to further at button functionality on the contact page and look forwrard to that skill being added in the next week. Adding different navigation responsiveness was not difficult when I figured out what code I needed to copy. I would like to obtain a deeper understanding of how these blocks are created from CSS and javascript, but that will come with time. 
 
-![Screenshot of Website](assets/images/screenshotportfolio.png)
+![Screenshot of Website](assets/images/screenshotporfolio.png)
