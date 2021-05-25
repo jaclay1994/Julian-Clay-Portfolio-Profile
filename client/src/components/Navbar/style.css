@@ -1,0 +1,11 @@
+.bg-img {
+    background-image: url('../../images/pexels-scott-webb-1029604.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: auto;
+    height: 100%;
+   }
+  
